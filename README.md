@@ -87,10 +87,50 @@ def create_agent():
 import datetime
 
 def get_current_time():
+    """
+    Tool Name: get_current_time
+
+    Description:
+        Retrieves the current system date and time.
+
+    Usage:
+        Use this tool when the user asks for the current time or date.
+
+    Returns:
+        A string in the format: "The current date and time is: YYYY-MM-DD HH:MM:SS"
+
+    Example:
+        User: What time is it?
+        Agent: The current date and time is: 2025-06-17 14:30:45
+    """
     now = datetime.datetime.now()
     return f"The current date and time is: {now.strftime('%Y-%m-%d %H:%M:%S')}"
 
 def calculate_sum(num1: float, num2: float):
+    """
+    Tool Name: calculate_sum
+
+    Description:
+        Adds two numeric values and returns the result in a formatted string.
+
+    Usage:
+        Use this tool when the user asks for a basic addition operation.
+
+    Parameters:
+        num1 (float): The first number.
+        num2 (float): The second number.
+
+    Returns:
+        A string indicating the result of the addition.
+        Example: "The sum of 4.0 and 5.0 is 9.0."
+
+    Error Handling:
+        If non-numeric input is provided, returns an error message.
+
+    Example:
+        User: Add 12 and 8
+        Agent: The sum of 12.0 and 8.0 is 20.0.
+    """
     try:
         result = num1 + num2
         return f"The sum of {num1} and {num2} is {result}."
@@ -98,7 +138,24 @@ def calculate_sum(num1: float, num2: float):
         return "Error: Please provide valid numbers for calculation."
 
 def say_hello():
+    """
+    Tool Name: say_hello
+
+    Description:
+        Returns a simple friendly greeting message.
+
+    Usage:
+        Use this tool when the user greets or expects a hello-type interaction.
+
+    Returns:
+        A static greeting string: "Hello from your ADK Agent!"
+
+    Example:
+        User: Hi!
+        Agent: Hello from your ADK Agent!
+    """
     return "Hello from your ADK Agent!"
+
 ```
 
 ---
