@@ -1,4 +1,23 @@
-# Hello World ADK Agent
+# Agent Development Kit (ADK) || Hello World Agent
+
+
+
+
+<html>
+    <h2 align="center">
+      <img src="https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png" width="256"/>
+    </h2>
+    <h3 align="center">
+      An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+    </h3>
+    <h3 align="center">
+      Important Links:
+      <a href="https://google.github.io/adk-docs/">Docs</a>, 
+      <a href="https://github.com/google/adk-samples">Samples</a>,
+      <a href="https://github.com/google/adk-web">ADK Web</a>.
+    </h3>
+</html>
+
 
 This repository contains a simple **"Hello World"** agent built using the **Google Agent Development Kit (ADK)**. The agent demonstrates basic conversational skills and tool usage through a few predefined Python functions.
 
