@@ -170,6 +170,8 @@ def say_hello():
 
 ---
 
+###  > 📘 **[Importance of Docstring](doc/docstring_adk.md)**
+
 ## ⚙️ Setup and Installation
 
 ### 1. Clone or Create Project Files
