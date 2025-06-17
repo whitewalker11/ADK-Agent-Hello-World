@@ -54,7 +54,9 @@ The **Google Agent Development Kit (ADK)** is a powerful framework for building,
 hello_world_agent/
 ├── agent.py          # Main entry point that defines the root agent
 ├── __init__.py       # Enables agent discovery
-└── tools.py          # Custom functions the agent can use
+└── tools/            # Folder containing the tools module
+    └── tools.py      # Custom functions the agent can use
+
 ```
 
 ---
